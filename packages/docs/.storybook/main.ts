@@ -25,7 +25,8 @@ const config: StorybookConfig = {
     options: {},
   },
   docs: {
-    autodocs: "tag",
+    autodocs: true,
+    defaultName: 'Documentation',
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
