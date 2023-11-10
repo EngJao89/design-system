@@ -20,6 +20,9 @@ const config: StorybookConfig = {
     getAbsolutePath("@storybook/addon-onboarding"),
     getAbsolutePath("@storybook/addon-interactions"),
   ],
+  typescript: {
+    reactDocgen: 'react-docgen', // 👈 react-docgen configured here.
+  },
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
