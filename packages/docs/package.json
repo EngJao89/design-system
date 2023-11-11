@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "sb dev -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "sb build",
+    "build": "build-storybook",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
@@ -14,7 +14,6 @@
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
-    "@radix-ui/react-toast": "^1.1.5",
     "@storybook/addon-a11y": "^7.5.2",
     "@storybook/addons": "^7.5.2",
     "phosphor-react": "^1.4.1",
